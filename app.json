@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "NYU",
-    "slug": "NYU",
+    "slug": "NYU-Augmented-Library",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/augmented-library-logo.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
