@@ -1,34 +1,37 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import {
-} from 'react-native';
-import { createStackNavigator } from "@react-navigation/stack";
-import { NavigationContainer } from "@react-navigation/native";
-import WelcomeScreen from "./WelcomeScreen";
-import About from "./About";
+import {createStackNavigator} from "@react-navigation/stack";
+import {NavigationContainer} from "@react-navigation/native";
+import { WelcomeScreen, Services, About, ReserveScreen } from "./index";
 
 const Stack = createStackNavigator();
 
 
 export default function App() {
 
+  const stackDefault = { headerShown: false };
   return (
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name={"Test"}
+          name={"Welcome Screen"}
           component={WelcomeScreen}
-          options={{ headerShown:false }}
+          options={stackDefault}
         />
         <Stack.Screen
           name={"About"}
           component={About}
-          options={{ headerShown:false }}
+          options={stackDefault}
         />
         <Stack.Screen
           name={"Services"}
-          component={WelcomeScreen}
-          options={{ headerShown:false }}
+          component={Services}
+          options={stackDefault}
+        />
+        <Stack.Screen
+          name={"RoomReservation"}
+          component={ReserveScreen}
+          options={stackDefault}
         />
       </Stack.Navigator>
     </NavigationContainer>
