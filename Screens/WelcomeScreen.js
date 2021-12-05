@@ -35,6 +35,11 @@ function WelcomeScreen({navigation}) {
         color="#601c8c"
         onPress={() => navigation.navigate('RoomReservation')}
       />
+      <Button
+        title="ARTour"
+        color="#601c8c"
+        onPress={() => navigation.navigate('ARVision')}
+      />
       <Text onPress={() => console.log('Hi')}>Debug Code!</Text>
     </ScreenTemplate>
   );
