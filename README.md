@@ -12,5 +12,9 @@ To make an application that uses AR vision to make NYU libraries more
 interactive and helpful, while providing extra features such as room
 reservation.
 
+## Cloning git
+If you are cloning into a repository, make you have have nodejs installed.
+Run npm install in the terminal
+
 
 
