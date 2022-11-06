@@ -33,7 +33,7 @@ function WelcomeScreen({navigation}) {
       <Button
         title="Reservable Study Spaces"
         color="#601c8c"
-        onPress={() => navigation.navigate('RoomReservation')}
+        onPress={() => navigation.navigate('RoomReservationStack')}
       />
       <Button
         title="ARTour"
