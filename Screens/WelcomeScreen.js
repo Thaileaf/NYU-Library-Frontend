@@ -7,6 +7,7 @@ function WelcomeScreen({navigation}) {
   return (
     <ScreenTemplate>
     <WelcomeButton/>
+      </ScreenTemplate>
   );
 }
 
