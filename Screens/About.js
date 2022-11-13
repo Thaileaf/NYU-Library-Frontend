@@ -8,6 +8,8 @@ import {
 } from 'react-native';
 import ScreenTemplate from "./screenTemplate";
 import styles from "./styles/General";
+
+
 export default function About() {
   return(
     <ScreenTemplate contentContainerStyle={styles.scrollView}>
