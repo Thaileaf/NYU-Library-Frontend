@@ -7,6 +7,8 @@ function WelcomeScreen({navigation}) {
   return (
     <ScreenTemplate>
     <WelcomeButton/>
+    </ScreenTemplate>
+      // Random sttuff
   );
 }
 
