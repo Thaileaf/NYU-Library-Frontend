@@ -1,6 +1,7 @@
 import React from 'react'
 import { Image, Linking, Text, TouchableWithoutFeedback, View } from "react-native";
 import styles from '../styles/General.js';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 export default function Header() {
   return(
@@ -12,10 +13,14 @@ export default function Header() {
         />
       </TouchableWithoutFeedback>
       <View style={styles.headerTitle}>
-        <Text style={{color: 'white', fontSize: 30}}>
-          NYU Library Services
+        <Text style={{color: 'white', fontSize: 20, fontWeight: 'bold'}}>
+          NYU Dibner Library
         </Text>
       </View>
+        <View style={styles.settingsIcon}>
+            <FontAwesome name ='bars' size={40} color={'white'}/>
+        </View>
+
     </View>
   )
 }

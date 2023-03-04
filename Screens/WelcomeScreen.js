@@ -40,7 +40,12 @@ function WelcomeScreen({navigation}) {
         color="#601c8c"
         onPress={() => navigation.navigate('ARVision')}
       />
-      <Text onPress={() => console.log('Hi')}>Debug Code!</Text>
+        <Button
+            title = "Printer"
+            color = "#601c8c"
+            onPress = {() => navigation.navigate('Print Service')} // printer button does not navigate to a page at the moment
+        />
+      <Text onPress={() => console.log('Hi')}></Text>
     </ScreenTemplate>
   );
 }

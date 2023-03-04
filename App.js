@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
-import { WelcomeScreen, Services, About, ReserveScreen, ARVision, PickTime } from "./index";
+import { WelcomeScreen, Services, About, ReserveScreen, ARVision, PickTime, Print } from "./index";
 
 const Stack = createStackNavigator();
 
@@ -43,6 +43,12 @@ export default function App() {
             component={PickTime}
             options={stackDefault}
         />
+        <Stack.Screen
+            name={"Print Service"}
+            component={Print}
+            options={stackDefault}
+        />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
