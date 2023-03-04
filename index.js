@@ -4,7 +4,8 @@ import About from "./Screens/About";
 import ReserveScreen from "./Screens/Reserve Screen/ReserveScreen";
 import PickTime from "./Screens/Reserve Screen/PickTime";
 import ARVision from "./Screens/ARVision";
-import Print from "./Screens/Print";
+import SignIn from "./Screens/SignIn/SignIn";
+import WelcomeButton from "./Screens/components/welcomeComponent/WelcomeButton"
 
 export {
   WelcomeScreen,
@@ -13,5 +14,5 @@ export {
   ReserveScreen,
   ARVision,
   PickTime,
-  Print
+    SignIn
 }

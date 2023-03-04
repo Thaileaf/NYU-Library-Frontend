@@ -3,6 +3,8 @@ import Header from './components/header';
 import {StatusBar} from 'expo-status-bar';
 import React from 'react';
 import styles from './styles/General';
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+
 
 export default function ScreenTemplate(props) { // Basic template for most screens that contains the NYU Banner header and background image
   return (
