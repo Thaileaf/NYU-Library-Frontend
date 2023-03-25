@@ -1,22 +1,40 @@
 import { Platform, StatusBar as RStatusBar, StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+
+  // header: {
+  //   flex: 1,
+  //   flexDirection: 'row',
+  //   justifyContent: 'center',
+  // },
+  //
+  // headerStyle: {
+  //   background: '#57068c',
+  // },
   header: {
     flex: 1,
     flexDirection: 'row', // Chooses direction contents go to
     backgroundColor: '#57068c',
-    justifyContent: 'center', // Aligns on Primary axis (horizontal or vertical for row and column respectively)
+    justifyContent: 'center', // Aligns on Primary axis (horizontal or vertical for row and column respectively
+
   },
   headerLogo: {
     flex: 2,
     height: '100%',
     width: '100%',
+    resizeMode: 'contain',
   },
   headerTitle: {
     flex: 4,
     color: 'white',
+    textAlign: 'left',
     justifyContent: 'center',
-    paddingLeft: 50,
+  },
+  settingsIcon: {
+    flex: 1,
+    justifyContent: 'center',
+    textAlign:'left',
+    resizeMode: 'contain',
   },
   container: {
     flex: 1,
