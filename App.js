@@ -35,41 +35,7 @@ export default function App() {
   const stackDefault = { headerShown: false };
   return (
     <NavigationContainer>
-      {/* Screens are inserted here. Make sure your
-      screen name is the same as the one you're navigating to*/}
-      {/* Need to automate many screens */}
-      {/*<Stack.Navigator>*/}
-      {/*  <Stack.Screen*/}
-      {/*    name={"Welcome Screen"}*/}
-      {/*    component={WelcomeScreen}*/}
-      {/*    options={stackDefault}*/}
-      {/*  />*/}
-      {/*  <Stack.Screen*/}
-      {/*    name={"About"}*/}
-      {/*    component={About}*/}
-      {/*    options={stackDefault}*/}
-      {/*  />*/}
-      {/*  <Stack.Screen*/}
-      {/*    name={"Services"}*/}
-      {/*    component={Services}*/}
-      {/*    options={stackDefault}*/}
-      {/*  />*/}
-      {/*  <Stack.Screen*/}
-      {/*    name={"RoomReservation"}*/}
-      {/*    component={ReserveScreen}*/}
-      {/*    options={stackDefault}*/}
-      {/*  />*/}
-      {/*  <Stack.Screen*/}
-      {/*    name={"ARVision"}*/}
-      {/*    component={ARVision}*/}
-      {/*    options={stackDefault}*/}
-      {/*  />*/}
-      {/*  <Stack.Screen*/}
-      {/*      name={"PickTime"}*/}
-      {/*      component={PickTime}*/}
-      {/*      options={stackDefault}*/}
-      {/*  />*/}
-      {/*</Stack.Navigator>*/}
+
       <Tab.Navigator // TODO Understand THis!!!
           screenOptions={
               ({route}) => ({
